@@ -5,19 +5,19 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from "react"
-import { StaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
-import styled from "styled-components"
+import React from "react";
+import { StaticQuery, graphql } from "gatsby";
+import Image from "gatsby-image";
+import styled from "styled-components";
 
-import { rhythm } from "../utils/typography"
+import { rhythm } from "../utils/typography";
 
 function Bio() {
   return (
     <StaticQuery
       query={bioQuery}
       render={data => {
-        const { author, social } = data.site.siteMetadata
+        const { author, social } = data.site.siteMetadata;
         return (
           <Container>
             <Image
@@ -34,23 +34,20 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong>, a framework built upon the
-              React library.
+              I'm on
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                Follow me on Twitter
-              </a>
+              <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>!
             </p>
           </Container>
-        )
+        );
       }}
     />
-  )
+  );
 }
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+    avatar: file(absolutePath: { regex: "/profile-pic.png/" }) {
       childImageSharp {
         fixed(width: 50, height: 50) {
           ...GatsbyImageSharpFixed
@@ -66,10 +63,10 @@ const bioQuery = graphql`
       }
     }
   }
-`
+`;
 
 const Container = styled.div`
   display: flex;
-`
+`;
 
-export default Bio
+export default Bio;

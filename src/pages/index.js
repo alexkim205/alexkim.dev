@@ -1,10 +1,8 @@
 import React from "react";
-import { Link, graphql, navigate } from "gatsby";
+import { graphql, navigate } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import Button from "../components/button";
-import Bio from "../components/bio";
 import SearchPosts from "../components/searchPosts";
 
 const IndexPage = ({ location, data }) => {
@@ -28,7 +26,6 @@ const IndexPage = ({ location, data }) => {
     >
       <SEO title="Home" keywords={[`blog`]} />
       <p>Welcome to my small corner of the Internet.</p>
-      <Bio />
       <SearchPosts
         posts={posts}
         localSearchBlog={localSearchBlog}
