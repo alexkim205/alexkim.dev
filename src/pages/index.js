@@ -11,13 +11,13 @@ const IndexPage = ({ location, data }) => {
   const siteTitle = data.site.siteMetadata.title;
   const posts = data.allMdx.edges;
   const localSearchBlog = data.localSearchBlog;
+  console.log("data", data);
 
   return (
     <Layout
       location={location}
       title={
         <>
-          {" "}
           Hi{" "}
           <span role="img" aria-label="wave emoji">
             👋

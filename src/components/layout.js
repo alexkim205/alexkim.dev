@@ -1,15 +1,14 @@
-import React from "react"
-import { Link } from "gatsby"
-import styled from "styled-components"
+import React from "react";
+import { Link } from "gatsby";
+import styled from "styled-components";
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm, scale } from "../utils/typography";
 
 const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
-  const blogPath = `${__PATH_PREFIX__}/blog/`
-  let header
+  const rootPath = `${__PATH_PREFIX__}/`;
+  let header;
 
-  if (location.pathname === rootPath || location.pathname === blogPath) {
+  if (location.pathname === rootPath) {
     header = (
       <h1
         style={{
@@ -24,12 +23,12 @@ const Layout = ({ location, title, children }) => {
             textDecoration: `none`,
             color: `inherit`,
           }}
-          to={location.pathname === blogPath ? `/blog/` : `/`}
+          to={`/`}
         >
           {title}
         </Link>
       </h1>
-    )
+    );
   } else {
     header = (
       <h3
@@ -44,12 +43,12 @@ const Layout = ({ location, title, children }) => {
             textDecoration: `none`,
             color: `inherit`,
           }}
-          to={`/blog/`}
+          to={`/`}
         >
           {title}
         </Link>
       </h3>
-    )
+    );
   }
 
   return (
@@ -71,16 +70,16 @@ const Layout = ({ location, title, children }) => {
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </Footer>
     </Wrapper>
-  )
-}
+  );
+};
 
 const Wrapper = styled.div`
   min-height: 100vh;
-`
+`;
 
 const Footer = styled.footer`
   text-align: center;
   margin: 24px;
-`
+`;
 
-export default Layout
+export default Layout;
