@@ -4,7 +4,7 @@ date: 2021-04-18T03:30:39.592Z
 title: An Argument for Transparent Salaries in Job Postings
 description: Both companies and candidates win from open salaries
 ---
-
+![moneytree](../assets/moneytree.jpeg)
 
 Warning: This article is an incoming brain dump. Please treat half-baked ideas as what they are, half-baked and containing chungus grains of salt.
 
