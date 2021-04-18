@@ -4,6 +4,8 @@ date: 2021-04-17T18:43:58.645Z
 title: I bootstrapped a product and failed.
 description: Here's a few lessons I've learned from it.
 ---
+![bigbrain](content/assets/bigbrain.jpg)
+
 Last year in August 2020, I started working on a browser extension called [Chummy](https://chummy.atomiccode.io) that brings an IDE-like experience to Github. Chummy became a labor of love that took 6-7 months of time I sneaked in between lunch breaks and after my 9-5 job. At times it consumed my life, and sometimes I went a few weeks not working on it because I'd lost motivation and interest.
 
 Here's a few things I'd do differently if I had to do it again:
