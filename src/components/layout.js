@@ -65,9 +65,9 @@ const Layout = ({ location, title, children }) => {
         <main>{children}</main>
       </div>
       <Footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()}, Built on
         {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <a href="https://en.wikipedia.org/wiki/Coffee?oldformat=true">☕</a>
       </Footer>
     </Wrapper>
   );
