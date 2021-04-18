@@ -43,7 +43,7 @@ const SearchBar = styled.div`
 
 const SearchedPosts = ({ results }) =>
   results.length > 0 ? (
-    results.map(node => {
+    results.map((node) => {
       const date = node.date;
       const title = node.title || node.slug;
       const description = node.description;
@@ -80,7 +80,7 @@ const AllPosts = ({ posts }) => (
   <div style={{ margin: "20px 0 40px" }}>
     {posts.map(({ node }) => {
       const title = node.frontmatter.title || node.fields.slug;
-      console.log("nde", node)
+      console.log("nde", node);
       return (
         <div key={node.fields.slug}>
           <h3
@@ -131,10 +131,8 @@ const SearchPosts = ({ posts, localSearchBlog, location, navigate }) => {
           type="search"
           placeholder="Search all posts"
           value={query}
-          onChange={e => {
-            navigate(
-              e.target.value ? `/?search=${e.target.value}` : "/"
-            );
+          onChange={(e) => {
+            navigate(e.target.value ? `/?search=${e.target.value}` : "/");
             setQuery(e.target.value);
           }}
         />
