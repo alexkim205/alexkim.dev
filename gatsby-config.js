@@ -3,7 +3,7 @@ module.exports = {
     // edit below
     title: `alexkim.dev`,
     author: `Alex Gyujin Kim`,
-    description: `Welcome to my little corner of the Internet.`,
+    description: `Welcome to my small corner of the Internet.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `alexgyujinkim`,
