@@ -8,9 +8,12 @@ description: Both companies and candidates win from open salaries
 
 Warning: This article is an incoming brain dump. Please treat half-baked ideas as what they are, half-baked and containing chungus grains of salt.
 
-An interesting tweet by levels.io:
+An inspiring tweet by levels.io:
 
-<Tweet tweetid={'1364288537030459400'}/>
+> ✨ From today all new job postings on http://RemoteOK.io will require a salary range
+> 💰 I think salary data should be open and transparent as it empowers job applicants and existing employees
+
+[source](https://twitter.com/levelsio/status/1364288537030459400)
 
 Which got me thinking... why isn't this a thing in the first place? When I'm on the hunt for jobs, one of the most important parts of the job posting is the salary. Team fit, work culture, work-life balance, benefits, and more are very important things to consider when applying to jobs, but the thing that often lacks the most transparency is the M O O L A H. As shallow as that sounds, it's the reality of working to pay the bills and keep a roof over your head. For some, this might not be a concern, but it's not hard to admit that this is a top priority for many looking for work. 
 
